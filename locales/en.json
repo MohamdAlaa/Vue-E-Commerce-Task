@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Home",
+    "cart": "Cart",
+    "login": "Login",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome to Our Store",
+    "subtitle": "Discover amazing products at great prices",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "viewDetails": "View Details"
+  },
+  "product": {
+    "description": "Description",
+    "category": "Category",
+    "price": "Price",
+    "addToCart": "Add to Cart",
+    "backToProducts": "Back to Products"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "total": "Total",
+    "checkout": "Checkout",
+    "itemCount": "{count} item(s)"
+  },
+  "login": {
+    "title": "Login to your account",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login"
+  },
+  "footer": {
+    "copyright": "© 2024 E-Commerce Store. All rights reserved."
+  }
+}
