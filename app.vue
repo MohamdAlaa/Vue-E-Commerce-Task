@@ -3,7 +3,7 @@
     <!-- Navigation -->
     <nav class="bg-white border-b border-gray-200 shadow-sm">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex items-center justify-between h-20">
           <!-- Logo -->
           <div class="flex items-center">
             <NuxtLink to="/" class="text-xl font-bold text-primary-600">
