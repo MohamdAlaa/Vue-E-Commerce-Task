@@ -12,7 +12,7 @@
           </div>
 
           <!-- Navigation Links -->
-          <div class="items-center hidden space-x-8 md:flex">
+          <div class="flex items-center">
             <NuxtLink
               to="/"
               class="px-3 py-2 text-sm font-medium text-gray-700 transition-colors rounded-md hover:text-primary-600"
