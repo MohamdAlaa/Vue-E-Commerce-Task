@@ -1,75 +1,51 @@
-# Nuxt Minimal Starter
+# E-Commerce Store (Nuxt 3)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, multilingual e-commerce web application built with Nuxt 3, Pinia, Tailwind CSS, and Vue I18n.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- 🛒 Product listing and details
+- 🛍️ Shopping cart with persistent storage
+- 🌐 Multilingual support (English & Arabic)
+- 🔒 Login form with validation
+- 🎨 Responsive design using Tailwind CSS
+- 🗂️ Modular code structure with composables and stores
 
-```bash
-# npm
-npm install
+## Tech Stack
 
-# pnpm
-pnpm install
+- [Nuxt 3](https://nuxt.com/) (Vue 3 framework)
+- [Pinia](https://pinia.vuejs.org/) (state management)
+- [Tailwind CSS](https://tailwindcss.com/) (utility-first CSS)
+- [@nuxtjs/i18n](https://i18n.nuxtjs.org/) (internationalization)
 
-# yarn
-yarn install
+## Getting Started
 
-# bun
-bun install
-```
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000)
 
-## Development Server
+## Project Structure
 
-Start the development server on `http://localhost:3000`:
+- `pages/` — Main app pages (home, cart, login, product details)
+- `components/` — Reusable UI components
+- `composables/` — Custom composable functions (e.g., useProducts)
+- `stores/` — Pinia stores (e.g., cart)
+- `locales/` — Translation files (`en.json`, `ar.json`)
+- `assets/css/` — Tailwind CSS file
 
-```bash
-# npm
-npm run dev
+## Customization
 
-# pnpm
-pnpm dev
+- **Add products:** Edit `composables/useProducts.js`.
+- **Edit translations:** Update `locales/en.json` and `locales/ar.json`.
+- **Change styles:** Edit `assets/css/tailwind.css` or `tailwind.config.js`.
 
-# yarn
-yarn dev
+## License
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT
